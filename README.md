@@ -13,8 +13,8 @@
   Установка Python3 на [Windows](https://www.youtube.com/watch?v=IU4-19ofajg), []()
  	 <br>
   **Git clone** <br>
-  `>>> git clone https://github.com/WayupKG/Online_Reception.git`<br>
-  `>>> cd Online_Reception`
+  `>>> git clone https://github.com/Nursultan301/News.git`<br>
+  `>>> cd News`
   
 2) ### Установка виртуального окружения
   Убедитесь, что virtualenv установлен на вашем компьютере или ноутбуке.<br>
