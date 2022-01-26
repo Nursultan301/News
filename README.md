@@ -4,7 +4,7 @@
 
 ### Снимки проекта
   Главная Страница:
-  ![alt text](https://github.com/WayupKG/Online_Reception/blob/master/static/Snaps%20of%20project/scren.png "Главная Страница")
+  ![alt text](https://github.com/Nursultan301/News/blob/main/mysite/static/PHOTO_README/news.png "Главная Страница")
   <br>
   
 # Инструкция 
