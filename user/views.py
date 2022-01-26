@@ -42,7 +42,7 @@ def contact(request):
         form = ContactForm(request.POST)
         if form.is_valid():
             mail = send_mail(form.cleaned_data['subject'], form.cleaned_data['content'],
-                             'abykeevnursultan14@gmail.com', ['nurchik0225@gmail.com'], fail_silently=False)
+                             'От кого', ['кому'], fail_silently=False)
             if mail:
                 messages.success(request, 'Письмо отправлено')
                 return redirect('contact')
