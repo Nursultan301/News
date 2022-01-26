@@ -3,7 +3,6 @@
 
 
 ### Снимки проекта
-  Главная Страница:
   ![alt text](https://github.com/Nursultan301/News/blob/main/mysite/static/PHOTO_README/news.png)
   <br>
   
