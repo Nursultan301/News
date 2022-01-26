@@ -1,0 +1,16 @@
+#header,
+.module h2, .module caption, .inline-group h2,
+.button, input[type=submit], input[type=button], .submit-row input, a.button,
+.button.default, input[type=submit].default, .submit-row input.default
+{
+    background: #3b206a;
+    color: #fff;
+}
+
+#branding h1, #branding h1 a:link, #branding h1 a:visited{
+    color: #fff;
+}
+div.breadcrumbs {
+    background: #15005a;
+}
+

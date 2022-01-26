@@ -1,0 +1,16 @@
+{% load news_tags %}
+{% comment %}
+<div class="list-group">
+    {% get_list_categories as categories %}
+    {% for item in categories %}
+    {% if not item.category.count %}
+      <a href="{% url 'category' item.pk %}" class="list-group-item list-group-item-action d-flex justify-content-between">
+          <p>{{ item.title }}</p>{{ item.category.count }}</a>
+    {% endif %}
+    {% endfor %}
+</div>
+
+<hr>
+{% endcomment %}
+
+{% show_categories %}

@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+   Test paginator
+{% endblock title %}
+
+
+{% block sidebar %}
+    {% include 'inc/_sidebar.html' %}
+{% endblock sidebar %}
+
+
+{% block content %}
+<h1>Test paginator</h1>
+{% for name in page_obj.object_list %}
+    <p>{{ name }}</p>
+{% endfor %}
+{% endblock content %}
+
+
+
+
+
+
+
+
+
+
+
+
