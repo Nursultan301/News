@@ -20,7 +20,7 @@
 2) ### Установка виртуального окружения
   Убедитесь, что virtualenv установлен на вашем компьютере или ноутбуке.<br>
   `>>> python3 -m venv venv`<br>
-  `>>> source venv/Scripts/activate`Windows
+  `>>> source venv/Scripts/activate`Windows<br>
   `>>> source venv/bin/activate`Linux
   
   
