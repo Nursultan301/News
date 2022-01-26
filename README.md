@@ -1,7 +1,6 @@
 # Django-News
 ### Это Новостной сайт
 
-<pre>
 ### Снимки проекта
   ![alt text](https://github.com/Nursultan301/News/blob/main/mysite/static/PHOTO_README/news.png)
   <br>
@@ -37,9 +36,7 @@
 `>>> python manage.py runserver` 
   
 6) ### Создание суперпользователя
-Для создания суперпользователя напишите команду.
-`>>> python manage.py createsuperuser`
+Для создания суперпользователя напишите команду.<br>
+`>>> python manage.py createsuperuser`<br>
 После выполнения этой команды она запросит имя пользователя и пароль.
 Вы можете получить доступ к панели администратора из `localhost:8000/admin/`
-
-</pre>
